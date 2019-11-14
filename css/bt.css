@@ -1,0 +1,33 @@
+.nav-item:hover{
+	background: #ffba16;
+}
+.nav-item{
+	width: 7rem;
+	height: 3rem;
+	text-align: center;
+}
+.nav-item a{
+	color: #fff !important;
+}
+.btn{
+	width: 8rem;
+	height: 3rem;
+	border: 0 !important;
+	margin-top: 1rem;
+}
+.hinh{
+	margin-top: 5rem;
+	margin-left: 80%;
+	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+.carousel-caption h3{
+        font-size: 100%;
+        margin: 0 !important;
+    }
+.carousel-caption h1 b{
+        font-size: 50%;
+        margin: 0 !important;
+    }
+}
